@@ -8,7 +8,7 @@ import 'antd/dist/reset.css'; // Ensure Ant Design CSS is imported
 
 const { Title, Paragraph } = Typography;
 
-// Define a type for the Review object
+// Type define for the Review object
 interface Review {
   reviewerName: string;
   rating: number;
