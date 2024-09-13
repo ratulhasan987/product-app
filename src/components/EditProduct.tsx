@@ -31,7 +31,7 @@ const EditProduct: React.FC = () => {
         title: 'Product Updated',
         text: 'The product has been successfully updated!',
         confirmButtonColor: '#3085d6',
-      }).then(() => navigate('/')); // Navigate after update
+      }).then(() => navigate('/')); // Navigate to the products page after click update product button
     } catch (error) {
       Swal.fire({
         icon: 'error',
