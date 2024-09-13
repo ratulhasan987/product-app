@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Table, Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { useGetProductsQuery } from '../features/products/productsApi';
-import 'antd/dist/reset.css'; // Ensure Ant Design CSS is imported
+import 'antd/dist/reset.css'; // imported from antd
 
 interface Product {
   id: number;
