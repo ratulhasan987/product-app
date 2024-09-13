@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import logo from '../../src/Assets/logo/logo.png'; 
+
 const ProductHeader: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
@@ -207,4 +206,3 @@ const EditProduct: React.FC = () => {
 };
 
 export default EditProduct;
-
